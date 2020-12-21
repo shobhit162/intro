@@ -1,4 +1,5 @@
-import 'dart:html';
+// ignore: avoid_web_libraries_in_flutter
+//import 'dart:html';
 
 import 'package:flutter/material.dart';
 
@@ -18,16 +19,16 @@ class MyApp extends StatelessWidget {
         body: Container(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget> [
+            children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('images/shobhitch.JPG'),
+                backgroundImage: AssetImage('images/shobhitch.jpg'),
               ),
               Text(
                 'Shobhit Chaurasia',
                 style: TextStyle(
                   fontFamily: 'Pacifico',
-                  fontSize: 60.0,
+                  fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2.0,
                   color: Colors.white,
@@ -59,7 +60,7 @@ class MyApp extends StatelessWidget {
                       color: Colors.lightBlueAccent,
                       fontWeight: FontWeight.bold,
                       letterSpacing: 1.0,
-                      fontSize: 20),
+                      fontSize: 17),
                   ),
                 ), 
               ),
@@ -75,12 +76,12 @@ class MyApp extends StatelessWidget {
                     color: Colors.lightBlueAccent,
                   ),
                   title: Text(
-                    '00shobhitchaurasia@gmail.com',
+                    'x00shobhitchaurasia@gmail.com',
                     style: TextStyle(
                       color: Colors.lightBlueAccent,
                       fontWeight: FontWeight.bold,
                       letterSpacing: 1.0,
-                      fontSize: 20.0),
+                      fontSize: 17.0),
                   ),
                 ),
               ),
